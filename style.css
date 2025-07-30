@@ -1,9 +1,18 @@
 #login-form{
 display:flex;
-align-content: space-around;
+align-content: space-evenly;
 align-items:center;
 flex-direction: column;
-height:auto;
-width:auto;
-background-color: red;
+}
+#wrong{
+    color:red;
+    display: none;
+}
+.form-label{
+    width:400px;
+}
+#rem{
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
 }

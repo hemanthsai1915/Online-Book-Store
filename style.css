@@ -1,0 +1,9 @@
+#login-form{
+display:flex;
+align-content: space-around;
+align-items:center;
+flex-direction: column;
+height:auto;
+width:auto;
+background-color: red;
+}

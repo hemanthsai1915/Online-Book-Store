@@ -3,9 +3,10 @@ let cont = document.getElementById('content-container');
 let inp=document.getElementById('searchInput')
 
 async function loadBooks() {
-  const query = inp.value.trim() || cat.value.trim(); // use user input or default
+  const query = inp.value.trim()  // use user input or default
   const res = await fetch(`https://openlibrary.org/search.json?q=${encodeURIComponent(query)}`);
   const data = await res.json();
+  console.log(data)
   cont.innerHTML = "";
 
   data.docs.slice(0, 30).forEach(book => {

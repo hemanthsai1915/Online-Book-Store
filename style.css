@@ -16,3 +16,13 @@ flex-direction: column;
     flex-direction: row;
     gap:3vw;
 }
+a{
+    color:#D92C54;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+}
+#wrongconf{
+    display: none;
+    color:red;
+}
